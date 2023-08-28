@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["./app/types/style.d.ts"],
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./app/*"]
+    }
+  }
+}
